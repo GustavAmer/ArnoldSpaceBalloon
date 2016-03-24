@@ -1,5 +1,6 @@
 package com.example.gustav.arnoldspaceballoon;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Camera;
@@ -8,11 +9,10 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-public class SpaceBalloonActivity extends AppCompatActivity {
+public class SpaceBalloonActivity extends Activity {
 
     TextView tv;
     @Override
